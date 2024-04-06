@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+.gallery img {
+    max-width: 100%;
+    height: auto;
+  }

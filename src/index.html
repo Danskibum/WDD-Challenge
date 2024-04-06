@@ -8,14 +8,37 @@
         <script src="js/main.js" type="module"></script>
     </head>
     <body>
-        <header>
-
+        <header class="divider" id="main-header">
+            <h1>Daniel's photo Gallery</h1>
+            <p>Welcome hope you like pictures</p>
         </header>
-        <main>
-
+        <main class="divider">
+            <div class="hero">
+                <img
+                src="src/images/banner-sm.jpg"
+                srcset="images/banner-sm.jpg 500w, images/banner.jpg"
+                alt="image of a high mountain lake"
+                />
+            </div>
+            <section class="mission">
+                <p>Here is were you will find the pictures you are looking for</p>
+                <p>If you like pictures on animals and nature.</p>
+            </section>
+            <section class="choice">
+                <ul class="choice-grid">
+                    <li>
+                        <a href="/src/animals/index.html">
+                            <h2>Animals</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/nature/index.html">
+                            <h2>Nature</h2>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </main>
-        <footer>
-            
-        </footer>
+        <footer id="main-footer">&copy;NOT a real business</footer>
     </body>
 </html>
